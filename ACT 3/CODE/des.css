@@ -1,0 +1,143 @@
+body {
+	background-image:url(../img/wall.jpg);
+
+}
+
+#top, #bottom {
+	background: #a32c28;
+	position: fixed;
+	}
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+img.a {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+	margin-bottom:0%;
+	width:600px;
+	height:600px;
+	center:0;
+
+}
+
+div.a {
+	background-color:#e5d7bc;
+	position:fixed;
+	bottom:0%;
+	width:100%;
+  	max-width:30em;
+   	height:100%; 
+	border-right:15px solid #a32c28;
+	border-left:15px solid #a32c28;
+	opacity: 0.85;
+    	filter: alpha(opacity=80); /* For IE8 and earlier */
+	left:0;
+	
+} 
+
+div.a:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+h1 {
+	font-family:century gothic;
+	color:#a32c28;
+}
+
+h2 {
+	font-family:century gothic;
+	color:#a32c28;
+}
+
+p.a {
+	font-family:century gothic;
+	color:#a32c28;
+	margin-left:1em;
+	margin-right:1em;
+	font-size:1.2em;
+}
+	
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+div.b {
+	background-color:#e5d7bc;
+	position:fixed;
+	bottom:0;
+	width:100%;
+  	max-width:20em;
+   	height:100%; 
+	border-right:15px solid #a32c28;
+	border-left:15px solid #a32c28;
+	opacity:0.85;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+	right: 0;
+	
+} 
+
+div.b:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+a#b {
+
+	color:#a32c28;
+	
+}
+
+a.button:link, a.button:visited {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #7A991A;
+    width: 200px;
+    text-align: center;
+    margin-top:50px;
+    padding: 4px;
+    text-decoration: none;
+    font-family: century gothic;
+}
+
+a.button:hover, a.button:active {
+    background-color: #384130;
+}
+
+a.c:link, a.button:visited {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #7A991A;
+    width: 150px;
+    text-align: center;
+    margin-top:50px;
+    padding: 4px;
+    text-decoration: none;
+    font-family: century gothic;
+}
+
+a.c:hover, a.button:active {
+    background-color: #384130;
+}
+
+
+
+img.b {
+	max-width:120px;
+	max-height:120px;
+	margin:0;
+	margin:0;
+}

@@ -1,0 +1,379 @@
+body {
+	background-image: url(../img/bgg.png);
+	border-top-width:20px;
+	border-top-style:solid;
+	border-top-color:#8E0F18;
+	border-bottom-width:20px;
+	border-bottom-style:solid;
+	border-bottom-color:#8E0F18;
+	margin: auto;
+
+}
+
+div#container {
+ width: 1000px;
+}
+
+h1 {
+	color:#8E0F18;
+	margin-top:10px;
+	margin-bottom:auto;
+	font-family:"century gothic", tahoma;
+	font-size:10em;
+}
+
+h1.v {
+	color:#8E0F18;
+	margin-left:1em;
+	font-family:"century gothic", tahoma;
+	font-size:2em;
+	text-align:center;
+}
+
+h2 {
+	color:#8E0F18;
+	margin-top:-1.50%;
+	font-family:"century gothic", tahoma;
+	font-size:1.25em;
+}
+
+/* links on left side */
+a.a {
+  
+	font-family:century gothic, tahoma;
+	font-size:3em;
+	text-decoration:none;
+	line-height:300%;
+	width:30%;
+	border-color:#8E0F18;
+	border-style:solid;
+	margin-top:5px;
+	margin-left:auto;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	-webkit-transition-property: color; 
+	transition-property: color;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;	
+}
+
+
+/* unvisited link */
+a.a:link {
+    color: #8E0F18;
+}
+
+/* visited link */
+a.a:visited {
+    color: #8E0F18;
+}
+
+a.a:before {
+  
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #8E0F18;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 0 50%;
+	transform-origin: 0 50%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+
+a.a:hover, a.b:focus, a.b:active {
+  
+	border-color: #8E0F18;
+
+	color: #DBCBBC;
+}
+
+
+a.a:hover:before, a.a:focus:before, a.a:active:before 
+	{
+  -webkit-transform: scaleX(1);
+  
+	transform: scaleX(1);
+
+}
+
+/* links on right side */
+a.b {
+  
+	font-family:century gothic, tahoma;
+	font-size:3em;
+	text-decoration:none;
+	line-height:300%;
+	width:30%;
+	border-style:solid;
+	border-color:#8E0F18;
+	margin-top:5px;
+	display: inline-block;
+  
+	vertical-align: middle;
+  
+	-webkit-transform: translateZ(0);
+  
+	transform: translateZ(0);
+  
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  
+	-webkit-backface-visibility: hidden;
+  
+	backface-visibility: hidden;
+  
+	-moz-osx-font-smoothing: grayscale;
+  
+	position: relative;
+  
+	-webkit-transition-property: color;
+  
+	transition-property: color;
+  
+	-webkit-transition-duration: 0.3s;
+  
+	transition-duration: 0.3s;
+
+}
+
+
+/* unvisited link */
+a.b:link {
+    color:  #8E0F18;
+}
+
+/* visited link */
+a.b:visited {
+    color: #8E0F18;
+}
+
+
+a.b:before {
+  
+	content: "";
+  
+	position: absolute;
+  
+	z-index: -1;
+  
+	top: 0;
+  
+	left: 0;
+  
+	right: 0;
+  
+	bottom: 0;
+  
+	background: #8E0F18;
+  
+	-webkit-transform: scaleX(0);
+  
+	transform: scaleX(0);
+ 
+	-webkit-transform-origin: 100% 50%;
+  
+	transform-origin: 100% 50%;
+  
+	-webkit-transition-property: transform;
+  
+	transition-property: transform;
+  
+	-webkit-transition-duration: 0.3s;
+  
+	transition-duration: 0.3s;
+  
+	-webkit-transition-timing-function: ease-out;
+  
+	transition-timing-function: ease-out;
+
+}
+
+
+a.b:hover, a.b:focus, a.b:active {
+ 
+	border-color: #8E0F18;
+
+	color: #DBCBBC;
+}
+
+
+a.b:hover:before, a.b:focus:before, a.b:active:before {
+  
+	-webkit-transform: scaleX(1);
+  
+	transform: scaleX(1);
+
+}
+
+/* links on the middle */
+
+a.c {
+	font-family:century gothic, tahoma;
+	font-size:3em;
+	text-decoration:none;
+	line-height:300%;
+	width:62.8%;
+	border-color:#8E0F18;
+	border-style:solid;
+	margin-top:5px;
+	margin-left:auto;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+/* unvisited link */
+a.c:link {
+    color: #8E0F18;
+}
+
+/* visited link */
+a.c:visited {
+    color: #8E0F18;
+}
+
+a.c:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #8E0F18;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+a.c:hover, a.c:focus, a.c:active {
+	color: #DBCBBC;
+	
+	
+	
+}
+a.c:hover:before, a.c:focus:before, a.c:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+
+
+
+
+div.bottom {
+	border-color:#8E0F18;
+	border-style:solid;
+	border-width:15px;
+	max-width:100%;
+	position:relative;
+
+}
+
+
+div#about  {
+	opacity: 0.70;
+    	filter: alpha(opacity=70); /* For IE8 and earlier */
+	background-color:#EBE4DA;
+}
+
+div#gallery  {
+	opacity: 0.70;
+    	filter: alpha(opacity=70); /* For IE8 and earlier */
+	background-color:#EBE4DA;
+	margin: auto;
+}
+
+
+
+img#x {
+	margin-bottom:10px;
+	width:100%;
+	
+	
+
+}
+p {
+	color:#8E0F18;
+	font-family:"century gothic", tahoma;
+	font-size:1.25em;
+	padding: 0 50 0 50;
+}
+
+a { 
+	color:#8E0F18;
+	text-decoration:none;
+	font-family:"century gothic", tahoma;
+	padding-left:20px;
+}
+table {
+	width:100%;
+}
+img.icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 -5 0 -5;
+}
+
+hr { 
+  border : 0;
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(142, 15, 24, 50), rgba(0, 0, 0, 0)); 
+}
+
+img.thumbnail {
+	width:150;
+	height:150;
+	padding:auto;
+	margin: 0 -10 0 -10;
+}
+
+img.thumbnail:hover {
+	box-shadow: 0px 0px 2px 2px #022;
+}
+
+div.credits  {
+	background-color: #8E0F18;
+	color: #EBE4DA;
+	font-family: century gothic;
+	text-align:center;
+	font-size:12px;
+}
+.credits a {
+	color: #EBE4DA;
+	margin-left:-15px;
+	padding:auto;
+}
