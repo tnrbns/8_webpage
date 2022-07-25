@@ -1,2 +1,2 @@
-# 8_webpage
-Old Web design highschool project from 2015-2016
+# Web design project
+A really really really old project back in 8th grade.
